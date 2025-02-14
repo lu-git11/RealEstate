@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+/* header*/
+.site-header{
+    background-image: url(./img/header.jpg);
+    height: 400px;
+    background-position: top center;
+    color: white;
+    margin: auto;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
