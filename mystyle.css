@@ -1,48 +1,149 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
 }
 main{
     margin: 2%;
     margin-left: 5%;
 }
-
+h1{
+    font-family:'Times New Roman';
+}
 h2{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 h3{
-    font-size: 20px;
-    padding-bottom: 5px;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 p{
-    line-height: 30px;
+    font-size: 14px;
 }
+
+img{
+    max-width: 100%;
+}
+
+/*utilities*/
+
+.container{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.btn-more{
+    display: block;
+    background-color: rgb(178, 101, 6);
+    padding: 8px;
+    margin-bottom: 10px;
+    color: white;
+    width: 80%;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 5px; 
+    justify-self: center;
+
+}
+.money{
+    color: green;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
 
 
 /* header*/
 .site-header{
     background-image: url(./img/header.jpg);
-    height: 400px;
-    background-position: top center;
+    height: 350px;
+    background-position: center;
     color: white;
     margin: auto;
     padding: 10px;
 }
-
-.container{
+.header-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     font-weight: bold;
+    justify-content: space-between;
+    height: 50vh;
+    
 }
 
 .menu a{
     color: white;
     text-decoration: none;
     padding-bottom: 5px;
-    padding: 20px;
+    padding: 10px;
+}
+.menu-bar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    
+}
+.header-p{
+    width: 80%;
+    align-items: left;
+    height: 90px;
+    line-height: 2;
+
 }
 
+/*main*/
+.about-container{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+}
+
+/*house*/
+
+.house-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.house-item{
+    display: flex;
+    height: 100%;
+
+}
+
+.border{
+    background-color: rgb(239, 236, 236);
+    border: 2px solid darkgray;
+    height: 100%;
+    width: 100%;
+    margin-inline-end: 5px;
+}
+
+.house-item-text{
+    margin-left: 10px;
+}
+
+.icon-item{
+    display: flex;
+    max-width: 80%;
+    width: 13%;
+    height: 20%;
+    justify-content: space-evenly;
+}
+
+.number{
+    margin-left: 10px;
+}
+.icon-container{
+    display: flex;
+    align-content: center;
+    justify-content:space-evenly;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
