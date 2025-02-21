@@ -53,6 +53,18 @@ img{
     margin-bottom: 5px;
 }
 
+.bold-text{
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.light-text{
+    font-weight: lighter;
+    text-align: center;
+    margin: 10px 0;
+}
+
 
 
 /* header*/
@@ -106,15 +118,12 @@ img{
 /*house*/
 
 .house-container{
-    display: flex;
-    flex-direction: column;
     margin-top: 2%;
 }
 
 .house-item{
     display: flex;
     height: 100%;
-
 }
 
 .border{
@@ -126,6 +135,11 @@ img{
 }
 
 .house-item-text{
+    margin-left: 10px;
+    height: 110px;
+}
+
+.margin-left{ 
     margin-left: 10px;
 }
 
@@ -146,4 +160,119 @@ img{
     justify-content:space-evenly;
     margin-bottom: 20px;
     max-width: 100%;
+}
+
+
+/*contact*/
+.contact-header{
+    background-color: orange;
+    height: 20vh;
+}
+
+.center{
+    justify-self: center;
+}
+
+.menu b{
+    color: black;
+}
+
+.input-control{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-control label{
+    display: inline-block;
+    width: 30%;
+}
+
+.input-control input,
+.input-control textarea{
+    width: 80%;
+    padding: 5px;
+    border: 1px solid rgb(168, 165, 165);
+}
+
+
+select{
+    width: 80%;
+    padding: 5px;
+    border: 1px solid rgb(168, 165, 165);
+    size: 1;
+}
+
+.form-container{
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+legend{
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+fieldset{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(137, 137, 137);
+    margin-bottom: 20px;
+}
+
+.footer-contact{
+    background-color: lightgray;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 20vh;
+    align-items: center;
+}
+
+.copyright-container{
+    display: flex;
+}
+
+.social-container{
+    display: flex;
+}
+
+.contact-container{
+    display: flex;
+    height: 10vh;
+    justify-content:space-between;
+    align-content: start;
+}
+
+.social-container i{
+    text-align: center;
+    color: black;
+    width: 20px;
+    height: 20px;
+}
+
+.social-container a{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+
+}
+
+.contact-bold{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contact-border{
+    border-right: 2px solid black;
+    padding-right: 10px;
+    margin-right: 10px;
 }
