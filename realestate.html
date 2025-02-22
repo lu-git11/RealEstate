@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="mystyle.css">
     <title>Document</title>
 </head>
 <body>
     <header class="site-header">
         <div class="header-container">
-            <div class="menu-bar">
-            <h1>Real Estate</h1>
-                <nav class="menu">
+           <div class="menu-bar">
+                <h1>Real Estate</h1>
+                <a class="menu-icon" href="menu"><i class="fa-solid fa-bars"></i></a>
+                <nav class="menu" class="menu-nav">
                     <a href="about.html">About us</a>
                     <a href="blog.html">Blog</a>
                     <a href="contact.html">Contact</a>
                 </nav>
             </div>
-            <div class="header-p">
+            <div class="header-info">
             <p>We Sell Luxury Houses, </p>
             <p>Condominiums, and Penthouses</p>
             </div>
@@ -42,13 +44,16 @@
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error ab perspiciatis, nemo repellat explicabo doloremque dolorem saepe minus ut eveniet perferendis blanditiis numquam provident voluptatibus asperiores facilis corporis! A, in?</p>
                     </div>
                 </div> 
+                
+                <h2>Houses and penthouses</h2>
                 <div class="house-container">
-                    <h2>Houses and penthouses</h2>
                     <div class="house-item">
-                        <div class="border">
+                        <div>
                             <img src="./img/announcement1.jpg" alt="">
-                            <h3 class="margin-left">Luxury House on the Lake</h3>
-                            <p class="house-item-text">Lorem ipsum amer amet dolor sit amet amet amet amet amet consectetur adipisicing elit. Cumque rerum repudiandae cum sunt modi maiores numqfeffw lorem iehoewi!</p>
+                        </div>
+                        <div class="house-item-text">   
+                            <h3>Luxury House on the Lake</h3>
+                            <p>Lorem ipsum amer amet dolor sit amet amet amet amet amet consectetur adipisicing elit. Cumque rerum repudiandae cum sunt modi maiores numqfeffw lorem iehoewi!</p>
                             <p class="money">$3,000,000.00</p>
                             
                             <ul class="icon-container">
@@ -66,34 +71,16 @@
                                 </li>
                             </ul>
                             
-                            <a class="btn-more">See Details</a>
-                        </div>
-                        <div class="border">
+                            <a class="btn-more" href="#">See Details</a>
+                        </div>   
+                    </div>
+                    <div class="house-item">
+                        <div>
                             <img src="./img/announcement2.jpg" alt="">                     
-                            <h3 class="margin-left">Luxury House</h3>
-                            <p class="house-item-text">Lorem ipsum dolor lorem amet sit amet amet amet amet amet consectetur adipisicing elit. Cumque rerum repudiandae cum sunt modi maiores numqfeffw lorem iehoewi!</p>
-                            <p class="money">$3,000,000.00</p>
-    
-                                <ul class="icon-container">
-                                    <li class="icon-item">
-                                        <img src="./img/icon_wc.svg" alt="">
-                                        <p class="number">3</p>
-                                    </li>
-                                    <li class="icon-item">
-                                        <img src="./img/icon_room.svg" alt="">
-                                        <p class="number">4</p>
-                                    </li>
-                                    <li class="icon-item">
-                                        <img src="./img/icon_parking.svg" alt="">
-                                        <p class="number">3</p>
-                                    </li>
-                                </ul>
-                                <a class="btn-more">See Details</a>
-                        </div>
-                        <div class="border">
-                            <img src="./img/announcement3.jpg" alt="">
-                            <h3 class="margin-left">House with a Pool</h3>
-                            <p class="house-item-text">Lorem ipsum dolor sit amet amet amet lorem amet amet lorem consectetur adipisicing elit. Cumque rerum repudiandae cum sunt modi maiores numqfeffw lorem iehoewi!</p>
+                        </div> 
+                        <div class="house-item-text">   
+                            <h3>Luxury House</h3>
+                            <p>Lorem ipsum dolor lorem amet sit amet amet amet amet amet consectetur adipisicing elit. Cumque rerum repudiandae cum sunt modi maiores numqfeffw lorem iehoewi!</p>
                             <p class="money">$3,000,000.00</p>
     
                                 <ul class="icon-container">
@@ -113,10 +100,55 @@
                                 <a class="btn-more">See Details</a>
                         </div>
                     </div>
-                </div>
+                        <div class="house-item">
+                            <div>
+                                <img src="./img/announcement3.jpg" alt="">
+                            </div>
+                            <div class="house-item-text">
+                                <h3>House with a Pool</h3>
+                                <p>Lorem ipsum dolor sit amet amet amet lorem amet amet lorem consectetur adipisicing elit. Cumque rerum repudiandae cum sunt modi maiores numqfeffw lorem iehoewi!</p>
+                                <p class="money">$3,000,000.00</p>
+    
+                                <ul class="icon-container">
+                                    <li class="icon-item">
+                                        <img src="./img/icon_wc.svg" alt="">
+                                        <p class="number">3</p>
+                                    </li>
+                                    <li class="icon-item">
+                                        <img src="./img/icon_room.svg" alt="">
+                                        <p class="number">4</p>
+                                    </li>
+                                    <li class="icon-item">
+                                        <img src="./img/icon_parking.svg" alt="">
+                                        <p class="number">3</p>
+                                    </li>
+                                </ul>
+                                <a class="btn-more" href="#">See Details</a>
+                            </div>
+                        </div>
+                    </div>    
         </main> 
-        <footer>
-
+        <footer class="footer-contact">
+            <div class="footer-container">
+                <div>
+                    <p>Powered by <span class="contact-bold">Zillow</span></p>
+                </div>
+                <div class="copyright-container">
+                    <p class="contact-border">Copyright &copy: 2024</p>
+                    <p class="contact-bold">Privacy Policy</p>
+                </div>
+                <div class="social-container">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
         </footer>
     
 </body>
