@@ -354,19 +354,22 @@ fieldset{
 /*blog*/
 .blog-container{
     width: 90%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .about-blog{
     display: flex;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .blog-pic{
     height: 40rem;
-    width: 40rem;
     align-self: center;
-    padding: 10rem;
-    margin-left: 20rem;
-    margin-right: 5rem;
+    padding: 5rem;
+    margin-left: 5rem;
+    margin-right: 2rem;
 }
 
 .blog-head{
@@ -392,6 +395,7 @@ fieldset{
 
 .text-center{
     text-align: center;
+    margin-left: 20px;
 }
 
 .btn-blog{
@@ -407,4 +411,43 @@ fieldset{
     border-radius: 5px; 
     letter-spacing: 3px;
     justify-self: center;
+}
+
+/*about*/
+.img-container{
+    display: flex;
+    margin-top: 20px;
+    height: 25rem;
+}
+
+.big-pic{
+    width: 825rem;
+    height: 50vh;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.radius{
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.about-list{
+    justify-content:space-evenly;
+    margin-bottom: 2rem;
+}
+
+.about-item{
+    max-width: 100%;
+    height: 50%;
+    justify-content: space-evenly;
+    line-height: 3;
+    font-weight: bold;
+    font-size: 20px;
+    color: orange;
+}
+
+.black{
+    color: black;
+    font-weight: lighter;
 }
